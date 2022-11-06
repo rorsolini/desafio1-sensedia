@@ -41,7 +41,7 @@ while numero != '0':
 
     elif numero == '4':
         print('Filtrando arquivos por CLIENTE:')
-        cliente = input('Informe o nome do cliente que deseja filtrar: ')
+        cliente = input('Informe o nome do cliente que deseja filtrar (exemplo: cliente1, cliente2...cliente10): ')
         if cliente != '':
             filtro (cliente)
             delete(cliente)
