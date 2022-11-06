@@ -1,7 +1,7 @@
 import os
 
 def filtro(txt):
-    pasta = 'C://Users/Laura/Downloads/desafio'
+    pasta = 'C://Users/usr/Downloads/desafio' #colocar o caminho que deseja filtrar
     for diretorio, subpastas, arquivos in os.walk(pasta):
         for arquivo in arquivos:
             if arquivo.lower().find(txt.lower()) > -1:
