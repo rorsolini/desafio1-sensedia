@@ -1,6 +1,6 @@
 import os
 
-pasta = 'C://Users/Laura/Downloads/desafio'
+pasta = 'C://Users/usr/Downloads/desafio' #colocar o caminho da pasta do desafio
 def filtro(txt):
     for diretorio, subpastas, arquivos in os.walk(pasta):
         for arquivo in arquivos:
