@@ -5,5 +5,5 @@ O scrip tem 2 defs: uma para filtrar a solicitação numeral (foi a forma mais p
 
 Tentei fazer o código mais limpo possível, então não há grande complexidade na leitura.
 
-Obs: Trocar o caminho da 'pasta', colocar o caminho que está a pasta 'desafio' em sua máquina e inverter as barras de \\ para // 
+Obs: Trocar o caminho da 'pasta', colocar o caminho que está a pasta 'desafio' em sua máquina e inverter as barras de \\ para //.
 exemplo: C:\Users\usr\Downloads\desafio >>> C://Users/usr/Downloads/desafio
