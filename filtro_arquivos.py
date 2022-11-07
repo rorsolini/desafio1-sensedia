@@ -1,6 +1,6 @@
 import os
 
-pasta = 'C://Users/usr/Downloads/desafio' #colocar o caminho da pasta do desafio
+pasta = 'C://Users/usr/Downloads/desafio' #colocar o caminho da pasta do desafio e inverter as barras de \\ para //
 def filtro(txt):
     for diretorio, subpastas, arquivos in os.walk(pasta):
         for arquivo in arquivos:
@@ -36,7 +36,7 @@ while numero != '0':
         mes = input('Informe o mes: ')
         dia = input('Informe o dia: ')
 
-        data = ano + '' + mes.zfill(2) + '' + dia.zfill(2)
+        data = ano + '_' + mes.zfill(2) + '_' + dia.zfill(2)
         filtro(data)
 
     elif numero == '4':
